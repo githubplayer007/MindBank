@@ -50,6 +50,7 @@ public class MindBankGraphApplication {
 	}
 
    // test data 
+	// test data dag is located at /resources/test_data_dag.png
 	private static Dag createTestDag() {
 		Node node1 = new Node(1);
 		Node node2 = new Node(2);
@@ -74,6 +75,9 @@ public class MindBankGraphApplication {
 
 		Node node9 = new Node(9);
 		node7.addEdge(new Edge(6, node9));
+		
+		Node node10 = new Node(10);
+		node7.addEdge(new Edge(4, node10));
 
 		return new Dag(node1);
 	}
