@@ -30,8 +30,8 @@ __Build__
 __Run__
 
 	java -jar ./target/mind.bank-0.0.1-SNAPSHOT.jar
- 
- 	The running result is printed out in your console.
+
+ 	The running result is printed out in your console. The test data dag is located at /resources/test_data_dag.png
 
 __QUESTIONS to be answered with the PROGRAMMING EXERCISE__ 
 
